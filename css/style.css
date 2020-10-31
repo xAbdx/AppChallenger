@@ -4,6 +4,10 @@ body{
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     height: 100vh;
 }
@@ -64,10 +68,8 @@ header{
     bottom: 20px;
 }
 
-section{
-    height: 100vh;
-}
 .section1{
+    height: 100vh;
     padding: 100px;
 }
 
@@ -102,6 +104,7 @@ section{
     text-transform: uppercase;
     font-size: 60px;
     transition: 0.4s;
+    letter-spacing: 7.9px;
 }
 
 .check_button{
@@ -111,4 +114,64 @@ section{
 .check_button a{
     color: #9A24A9;
     text-decoration: none;
+}
+
+.section2{
+    height: 85vh;
+    padding: 100px 0px 0px 0px;
+}
+
+.img_section2{
+    float: right;
+    padding-right: 20px;
+    margin-bottom: -22px;
+}
+
+.text{
+    float: left;
+    padding-left: 80px;
+}
+
+.title_section2 p{
+    font: normal normal bold 85px/90px Sitka Display;
+    color: #2E353A;
+    font-size: 60px;
+    padding: 0;
+    margin: 0px 0px -30px 0px;
+    opacity: 0.8;
+}
+
+.title_section2 h1{
+    font: normal normal bold 85px/90px Sitka Display;
+    color: #2E353A;
+    font-size: 60px;
+    padding: 0;
+    /* margin: 0px 0px -10px 0px; */
+    opacity: 0.8;
+}
+
+.paragraph{
+    margin-top: 50px;
+}
+.paragraph p{
+    color: #2E353A;
+    padding: 0;
+    margin: 0;
+    font-size: 21.5px;
+}
+
+.botton_section2{
+    margin-top: 100px;   
+}
+
+.botton_section2 a{
+    text-decoration: none;
+    background-color: #9A24A9;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 60px;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: 0.4s;
+    letter-spacing: 4px;
 }

@@ -77,5 +77,67 @@ article a{
     text-decoration: none;
 }
 
+/* css for the addTopic.html page */
+.addtopic p{ 
+    display: block;
+}
 
+#div_title{
+    color: #650061;
+    padding-bottom: 10px;
+}
 
+.addtopic input{
+    display: block;
+    padding: 10px 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.addtopic a{
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+/* css for the addQuiz.html page */
+
+.addQuiz p{
+    display: block;
+    color: #650061;
+    margin-bottom: 20px;
+}
+
+.addQuiz label{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.addQuiz input{
+    display: block;
+    padding: 10px 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.addQuiz select{
+    display: block;
+    padding: 10px 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.addQuiz a{
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 20px 0px;
+    font-size: 20px;
+}

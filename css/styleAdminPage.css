@@ -1,46 +1,46 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-header{     
+header {     
     height: 100px;
     background-image: url('../img/Intersection\ 1.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.container{
+.container {
     padding-top: 10px;
     padding-left: 40px;
 }
 
-header h3{
+header h3 {
     color: #fff;
     font: normal normal normal 40px/82px Sitka Display;
 }
 
-header span{
+header span {
     color: #650061;
     font-family: Open Sans;
     text-transform: uppercase;
     font-size: 20px;
 }
 
-nav{
+nav {
     width: 300px;
     height: calc(100vh - 100px);
     background-color: #E5E5E5;
     float: left;
 }
 
-.colored{
+.colored {
     color: #650061;
 }
 
-nav a{
+nav a {
     margin: 20px;
     padding: 10px 10px 10px 30px;
     text-decoration: none;
@@ -52,23 +52,23 @@ nav a{
     transition: 0.3s;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: #fff;
     color: #9A24A9;
 }
 
-article{
+article {
     width: calc(100% - 300px);
     float: right;
     padding: 30px;
 }
 
-article p{
+article p {
     font-size: 20px;
     display: inline-block;
 }
 
-article a{
+article a {
     color: #fff;
     background: linear-gradient(111deg, rgba(233,88,162,1) 35%, rgba(158,39,170,1) 100%);
     padding: 10px 20px;
@@ -78,25 +78,25 @@ article a{
 }
 
 /* css for the addTopic.html page */
-.addtopic p{ 
+.addtopic p { 
     display: block;
 }
 
-#div_title{
+#div_title {
     color: #650061;
     padding-bottom: 10px;
 }
 
-.addtopic input{
+.addtopic input {
     display: block;
-    padding: 10px 150px;
+    padding: 10px 250px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #C6C6C6;
     border-radius: 13px;
 }
 
-.addtopic a{
+.addtopic a {
     display: inline-block;
     padding: 10px 50px;
     margin: 20px 0px;
@@ -105,39 +105,102 @@ article a{
 
 /* css for the addQuiz.html page */
 
-.addQuiz p{
+.addQuiz p {
     display: block;
     color: #650061;
     margin-bottom: 20px;
 }
 
-.addQuiz label{
+.addQuiz label {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 18px;
 }
 
-.addQuiz input{
+.addQuiz input {
     display: block;
-    padding: 10px 150px;
-    margin-top: 20px;
+    padding: 10px 250px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid #C6C6C6;
     border-radius: 13px;
 }
 
-.addQuiz select{
+.addQuiz select {
     display: block;
-    padding: 10px 210px;
-    margin-top: 20px;
+    padding: 10px 315px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid #C6C6C6;
     border-radius: 13px;
 }
 
-.addQuiz a{
+.addQuiz a { 
     display: inline-block;
     padding: 10px 50px;
     margin: 20px 0px;
+    font-size: 20px;
+}
+
+/* css for the addQuestion.html page */
+
+.addQuestion p {
+    display: block;
+    color: #650061;
+    margin-bottom: 20px;
+}
+
+.addQuestion label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.addQuestion input {
+    display: block;
+    padding: 10px 250px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.addQuestion select {
+    display: block;
+    padding: 10px 315px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.input_container_active input {
+    display: inline-block;
+    padding: 10px 230px;
+    margin-bottom: 5px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.input_container_inactive input {
+    display: inline-block;
+    padding: 10px 230px;
+    border: 1px solid #C6C6C6;
+    border-radius: 13px;
+}
+
+.fas {
+    cursor: pointer;
+    display: inline-block;
+}
+.fa-check-circle {
+    color: #C540A5;
+}
+
+.addQuestion a {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 10px 0px;
     font-size: 20px;
 }

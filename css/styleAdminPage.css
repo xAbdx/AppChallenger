@@ -87,14 +87,15 @@ article a {
     padding-bottom: 10px;
 }
 
-.addtopic input {
+.addtopic input[type=text]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: block;
-    padding: 10px 250px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #C6C6C6;
+    border: 1px solid #ccc;
     border-radius: 13px;
-}
+    box-sizing: border-box;
+  }
 
 .addtopic a {
     display: inline-block;
@@ -117,22 +118,24 @@ article a {
     font-size: 18px;
 }
 
-.addQuiz input {
+.addQuiz input[type=text], [type=number]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: block;
-    padding: 10px 250px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #C6C6C6;
+    border: 1px solid #ccc;
     border-radius: 13px;
-}
+    box-sizing: border-box;
+  }
 
 .addQuiz select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: block;
-    padding: 10px 315px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #C6C6C6;
+    border: 1px solid #ccc;
     border-radius: 13px;
+    box-sizing: border-box;
 }
 
 .addQuiz a { 
@@ -150,29 +153,30 @@ article a {
     margin-bottom: 20px;
 }
 
-.addQuestion label{
+.addQuestion label {
     display: block;
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.addQuestion input {
-    display: block;
-    padding: 10px 250px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #C6C6C6;
+.addQuestion input[type=text]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
     border-radius: 13px;
-}
+    box-sizing: border-box;
+  }
 
 .addQuestion select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
     display: block;
-    padding: 10px 315px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #C6C6C6;
+    border: 1px solid #ccc;
     border-radius: 13px;
-    cursor: pointer;
+    box-sizing: border-box;
 }
 
 .input_container_active input {

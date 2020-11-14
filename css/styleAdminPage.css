@@ -97,11 +97,15 @@ article a {
     box-sizing: border-box;
   }
 
-.addtopic a {
-    display: inline-block;
+.addtopic button { 
     padding: 10px 50px;
     margin: 20px 0px;
     font-size: 20px;
+    color: #fff;
+    background: linear-gradient(111deg, rgba(233,88,162,1) 35%, rgba(158,39,170,1) 100%);
+    border: 0px;
+    border-radius: 47px;
+    cursor: pointer;
 }
 
 /* css for the addQuiz.html page */
@@ -138,11 +142,15 @@ article a {
     box-sizing: border-box;
 }
 
-.addQuiz a { 
-    display: inline-block;
+.addQuiz button { 
     padding: 10px 50px;
     margin: 20px 0px;
     font-size: 20px;
+    color: #fff;
+    background: linear-gradient(111deg, rgba(233,88,162,1) 35%, rgba(158,39,170,1) 100%);
+    border: 0px;
+    border-radius: 47px;
+    cursor: pointer;
 }
 
 /* css for the addQuestion.html page */
@@ -162,7 +170,7 @@ article a {
 .addQuestion input[type=text]{
     width: 60%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 0px 0px 30px 0px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 13px;
@@ -172,39 +180,51 @@ article a {
 .addQuestion select {
     width: 60%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 0px 0px 30px 0px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 13px;
     box-sizing: border-box;
 }
 
-.input_container_active input {
+.input_container_active input[type=text] {
+    width: 58%;
     display: inline-block;
-    padding: 10px 230px;
     margin-bottom: 5px;
     border: 1px solid #C6C6C6;
     border-radius: 13px;
 }
 
-.input_container_inactive input {
+.input_container_inactive input[type=text] {
+    width: 58%;
     display: inline-block;
-    padding: 10px 230px;
+    margin-bottom: 5px;
     border: 1px solid #C6C6C6;
     border-radius: 13px;
+}
+
+.true-Input {
+    border: 2px solid green;
 }
 
 .fas {
     cursor: pointer;
     display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
 }
+
 .fa-check-circle {
     color: #C540A5;
 }
 
-.addQuestion a {
-    display: inline-block;
+.addQuestion button { 
     padding: 10px 50px;
-    margin: 10px 0px;
+    margin: 20px 0px;
     font-size: 20px;
+    color: #fff;
+    background: linear-gradient(111deg, rgba(233,88,162,1) 35%, rgba(158,39,170,1) 100%);
+    border: 0px;
+    border-radius: 47px;
+    cursor: pointer;
 }

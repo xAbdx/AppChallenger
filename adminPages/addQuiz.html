@@ -26,19 +26,22 @@
             <div class="addQuiz">
                 <p>Add Quiz</p>
                 <label>Title</label>
-                <input type="text" name="" id="" placeholder=". . .">
+                <input type="text" id="title" placeholder=". . .">
                 <label>Topic</label>
-                <select value="">
-                    <option name="" id=""></option>
-                    <option name="" id="">test 1</option>
-                    <option name="" id="">test 2</option>
+                <select value="" id="topic">
+                    <!-- From localStorage data in AddTopic?? -->
+                    <option id=""></option> 
+                    <option id="">test 1</option>
+                    <option id="">test 2</option>
                 </select>
-                <label for="">Number of Questions</label>
-                <input type="number" name="" id="" placeholder=". . .">
-                <a href="">save</a>
+                <label>Number of Questions</label>
+                <input type="number" id="number_Of_Questions" placeholder=". . .">
+                <button id="btn">save</button>
             </div>
         </article>
     </section>
+
+    <script src="../js/add-Quiz.js"></script>
 </body>
 
 </html>

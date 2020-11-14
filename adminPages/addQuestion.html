@@ -27,31 +27,35 @@
             <div class="addQuestion">
                 <p>Add Question</p>
                 <label>Question</label>
-                <input type="text" name="" id="" placeholder=". . .">
+                <input type="text" id="question" placeholder=". . .">
 
                 <label>Topic</label>
-                <select value="">
-                    <option name="" id="">. . .</option>
-                    <option name="" id="">test 1</option>
-                    <option name="" id="">test 2</option>
+                <select value="" id="topic">
+                    <!-- From localStorage data in AddTopic?? -->
+                    <option id="">. . .</option>
+                    <option id="">test 1</option>
+                    <option id="">test 2</option>
                 </select>
 
                 <label>Options</label>
-                <div class="input_container_active">
-                    <input type="text" name="" id="" placeholder=". . .">
-                    <i class="fas fa-plus-circle"></i>
-                    <i class="fas fa-check-circle"></i>
+                <div id="input_container">
+                    <div class="input_container_active">
+                        <input type="text" id="options option" placeholder=". . .">
+                        <i onclick="addOption()" class="fas fa-plus-circle"></i>
+                        <i onclick="trueOption()" class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="input_container_inactive">
+                        <input type="text" id="options" placeholder=". . .">
+                        <i onclick="addOption()" class="fas fa-plus-circle"></i>
+                        <i onclick="removeOption()" class="fas fa-minus-circle"></i>
+                        <i onclick="trueOption()" class="fas fa-check-circle"></i>
+                    </div>
                 </div>
-                <div class="input_container_inactive">
-                    <input type="text" name="" id="" placeholder=". . .">
-                    <i class="fas fa-plus-circle"></i>
-                    <i class="fas fa-minus-circle"></i>
-                    <i class="fas fa-check-circle"></i>
-                </div>
-
-                <a href="">save</a>
+                <button id="btn">save</button>
             </div>
         </article>
+
+        <script src="../js/add-Question.js"></script>
 </body>
 
 </html>
